@@ -442,6 +442,27 @@
             transform: rotate(90deg);
         }
 
+        .animated-button {
+        background-color: #FFA500; /* orange */
+        color: white;
+        border: 2px solid white;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+        }
+
+        .animated-button:hover {
+        background-color: white;
+        color: #FFA500;
+        transform: scale(1.05);
+        box-shadow: 0 0 10px #FFA500;
+
         /* Footer */
         footer {
             background: linear-gradient(to right, var(--primary), var(--secondary));
@@ -667,12 +688,8 @@
                 <h3>9. Telephone Etiquette</h3>
                 <p>Professional phone communication, customer service</p>
             </div>
-            <div class="toc-item" onclick="scrollToLecture('lecture10')">
-                <h3>10. Emotional Intelligence</h3>
-                <p>Self-awareness, empathy, emotional regulation</p>
-            </div>
             <div class="toc-item" onclick="scrollToLecture('lecture11')">
-                <h3>11. Dining Etiquette</h3>
+                <h3>10. Dining Etiquette</h3>
                 <p>Table manners, social conduct, professional behavior</p>
             </div>
         </div>
@@ -699,7 +716,7 @@
                         <h3>Worksheets</h3>
                         <div class="image-grid">
                             <div class="image-container" onclick="openImageViewer('cover1.png')">
-                                <img src="cover1.png" alt="Worksheet 1">
+                                <img src="work.png" alt="Worksheet 1">
                                 <div class="image-label">Worksheet 1 (Click to view full size)</div>
                             </div>
                         </div>
@@ -893,8 +910,8 @@
         <!-- Lecture 7 -->
         <div class="lecture" id="lecture7">
             <div class="lecture-header">
-                <h2 class="lecture-title">7. Speaking Skills</h2>
-                <span class="attendance not-attended">Not Attended</span>
+                <h2 class="lecture-title">7. Speaking Skills - Meetings</h2>
+                <span class="attendance attended">Attended</span>
             </div>
             <div class="content-grid">
                 <div class="learned">
@@ -916,6 +933,11 @@
                     • Board general meeting/AGM<br>
                     • EGM (extraordinarly general meeting)</p>
                 </div>
+                    <a class="animated-button" href="https://drive.google.com/file/d/1UHBl0lhQpMjE4pCoLMPJ7OCTAgIM2Vag/view?usp=sharing" target="_blank">
+                    View Worksheet
+                    </a>
+
+
             </div>
         </div>
 
@@ -982,42 +1004,11 @@
             </div>
         </div>
 
-        <!-- Lecture 10 -->
-        <div class="lecture" id="lecture10">
-            <div class="lecture-header">
-                <h2 class="lecture-title">10. Emotional Intelligence</h2>
-                <span class="attendance not-attended">Not Attended</span>
-            </div>
-            <div class="content-grid">
-                <div class="learned">
-                    <h3>What I Learned</h3>
-                    <p>I got a lot of knowledge on emotional intelligence from this lecture. Emotional intelligence is the capacity to identify our own emotions as well as those of others. We can refer to a variety of actions, thoughts, and feelings as emotions. Additionally, I learned about the significance of emotional intelligence (EI) for both professional and personal growth, as well as the effects it has on relationships, leadership, and productivity. The key subtopics I took away from this talk were self-awareness, self-regulation, mindfulness, cognitive reappraisal, and empathy. We also learned about IQ from the talk. This lecture is crucial because we need to always be able to control our emotions and comprehend how others are experiencing.</p>
-                </div>
-                <div class="notes">
-                    <h3>Short Notes</h3>
-                    <p><strong>Components of Emotional Intelligence:</strong><br>
-                    1. Self-awareness<br>
-                    2. Self-regulation<br>
-                    3. Motivation<br>
-                    4. Empathy<br>
-                    5. Social skills</p>
-                    
-                    <p><strong>Benefits:</strong><br>
-                    • Better teamwork<br>
-                    • Improved leadership<br>
-                    • Enhanced decision-making<br>
-                    • Stronger relationships<br>
-                    • Effective conflict resolution</p>
-                    
-                    
-                </div>
-            </div>
-        </div>
 
-        <!-- Lecture 11 -->
+        <!-- Lecture 10 -->
         <div class="lecture" id="lecture11">
             <div class="lecture-header">
-                <h2 class="lecture-title">11. Dining Etiquette</h2>
+                <h2 class="lecture-title">10. Dining Etiquette</h2>
                 <span class="attendance attended">Attended</span>
             </div>
             <div class="content-grid">
